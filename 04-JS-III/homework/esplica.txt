@@ -1,0 +1,37 @@
+los arrays son como una lista de cosas puedes meter string numero otros arrays y hata funciones
+todo array empiesa por el 0 si quieres recorer un array lo puedes hacer por medio de un for
+for(var i=0;i<array.lenght;i++) como notaras i empieza en 0 y termina en < el numero del array
+esa es la forma de recorrer array las declaramos 
+var nombreDelArray=[];
+podemos llenar estos arrays para q tengan contenido definido
+var nombreDelArray=[1,2,"hola",2.2,true,function(),[1,2,3,4,5]]; cmo notaras puede entrar todas las variables mostradas
+
+si quieres eliminar el ultimo puesto del array usas el nombreDelArray.pop(); este ara q desaparesca en este caso [1,2,3,4,5]
+nombreDelArray=[1,2,"hola",2.2,true,function()];
+
+si quieres agregar al ultimo otra cosa (string boolean int,etc.)usar el ,
+nombreDelArray.push("lo que quieres agregar"); 
+nombreDelArray=[1,2,"hola",2.2,true,function(),"lo que quieres agregar"];
+
+si quieres agregar al principio 
+nombreDelArray.unshift("lo que quieres agregar al principio");
+nombreDelArray=["lo que quieres agregar al principio",1,2,"hola",2.2,true,function(),"lo que quieres agregar"];
+
+si quieres quitar lo que hay al principio 
+nombreDelArray.shift();
+nombreDelArray=[1,2,"hola",2.2,true,function(),"lo que quieres agregar"];
+
+estas ayudas de quitar cosas solo las de quitar, antes de quitarlas las muestran, si no quieres perderlas puedes guardarlas 
+en otra variable 
+nombreDelArray=[1,2,"hola",2.2,true,function(),"lo que quieres agregar"];
+var loQQuieroGuardar = nombreDelArray.pop();
+loQQuieroGuardar = "lo que quieres agregar"
+
+ultimo punto la palabra clave argument, esta palabra clave lo q hace es contar los argumentos q le envias a la funcion
+function ResArgumentos(){                       //el total de argumentos q se estan enviando son 4 (1,2,"hola",true)
+                                                //al igual q los arrays argument empieza de 0 y se puede acseder a 
+    return argument                             //ellos con argument[0] argument[1] argument[2] argument[3]
+
+}
+console.log(ResArgumentos(1,2,"hola",true))
+-> 1 , 2, "hola", true
