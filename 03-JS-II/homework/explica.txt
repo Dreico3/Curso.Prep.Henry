@@ -1,0 +1,8 @@
+for: es un bucle que repite una y otra vez una accion q esta dentro de esta hasta q tu le pongas un limite
+&&: es como la palabra "y" esto mayormente sirve en las preguntas ejemplo:
+    3>2 "y" 3<5 esto es verdad por q estas preguntando si 3 es mayor y 3 es menor que 5
+||: este es "o" de las dos preguntas q le agas una tiene q ser verdad para q todo sea verdad 
+    solo tiene q cumplirse una de las preguntas
+    3>2 "o" 3>5 solo tiene q cumprise una de las pregutnas para q sea true o verdad 
+!: este es la negacion lo colocas delante de lo q sea y lo negara automaticamente
+    3!=2 esta preguntando q si son distintos
