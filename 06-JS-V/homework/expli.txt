@@ -1,0 +1,2 @@
+en el prototype esta las funciones basicas que todo objeto posee por defecto
+el constructor son variables q colocas en un objeto para que sean mas facil de armar dicho obgeto
