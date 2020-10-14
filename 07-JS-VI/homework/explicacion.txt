@@ -1,0 +1,35 @@
+un callback es enviar un metodo ya establecido a otro metodo ejemplo
+function saludar(nom){
+    console.log("buen dia "+nom)
+    return "buen dia "+nom;
+}
+function armarsa(nombre,saludar){
+    saludar(nombre);
+}
+tanbien tenemos nuevas formas de interactuar con arrays
+----->>ARRAY.MAP()
+array.map();
+el .map crea una copia del array y lo guarda en un nuevo array
+nuevoArray=array.map(function(elemento,prosicionElemento){
+    return elemento + 1;        //aqui puede hacer lo que quieras con el elemento q estas enviando a armarse en nuevoArray
+    //si quieres lo sumas , lo dividis lo cocatenas etc
+})
+
+
+----->>ARRAY.FOREACH()
+let array=["erika","juan","pedro","samanta"];
+array.foreach(saludar)
+//el forEach(function) resive una fucncion y esa funcion es ejecutada con cada elemento del array 
+//pero no regresa nada asi q el return q se tiene el la fucncion de saludar el return no sirve
+buen dia erika
+buen dia juan
+buen dia pedro
+buen dia samanta
+undefined //esto es lo retornado por el forEach asi qno regresa nada
+
+----->>ARRAY.REDUCE()
+let numeros=[1,2,3,4,5,6];
+var nume=numeros.reduce(function(acumulador,nroDeElemento){
+    return acumulador+nroDeElemento;
+},0)
+este sirve para sumar todos los elementos de un array, este si retorna solo un numero como resultado de toda la suma
