@@ -7,13 +7,18 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display:block;
+    text-align:center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    
+    visibility:hidden;
+}
 
 
 
@@ -21,17 +26,69 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioTres{
+    position:absolute;
+    top:100px;
+    left:200px;
 
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:rgb(42, 55, 100);
+    
+    border-radius: 20px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#ejercicioCinco>span{
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ejercicioSiete{
+    display: flex;
+    background-color:yellowgreen;
+    flex-direction: column-reverse;
+}
+#elementoUno{
+    background-color: red;
+    color:white;
+    align-self: center;
+}
+#elementoDos {
+    align-self: flex-end;
+    background-color: blue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#elementoTres {
+    border: 2px dashed blue;
+    align-self: center;
+    background: palevioletred;
+    color: greenyellow;
+}
+body{
+    background-color:rgb(24, 24, 36);
+    color: azure;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
